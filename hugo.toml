@@ -1,0 +1,61 @@
+################################################################################
+# Main config
+################################################################################
+baseURL = 'https://www.shrikebyte.com/'
+languageCode = 'en-us'
+title = 'Shrikebyte'
+copyright = '© Shrikebyte, LLC'
+theme = 'PaperMod'
+
+
+################################################################################
+# Pages
+################################################################################
+
+[[menu.main]]
+identifier = 'blog'
+name = 'Blog'
+url = 'blog/'
+weight = 20
+
+[[menu.main]]
+identifier = 'contact'
+name = 'Contact'
+url = 'contact/'
+weight = 30
+
+[[menu.main]]
+identifier = 'search'
+name = 'Search'
+url = 'search/'
+weight = 40
+
+
+################################################################################
+# PaperMod customizations
+################################################################################
+[params] 
+
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+env = 'production'
+logo = '/images/logo.png'
+
+description = 'This is my website'
+
+# Search-related options
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+# limit = 10 # refer: https://www.fusejs.io/api/methods.html#search
+keys = ["title", "permalink", "summary", "content"]
+
+
+# Need to add this section for search to work
+[outputs]
+home = [ 'HTML', 'RSS', 'JSON' ]
