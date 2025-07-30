@@ -1,7 +1,12 @@
 +++
 title = 'Contact'
+params.ShowReadingTime = false
+params.ShowBreadCrumbs = false
+params.ShowToc = false
 +++
 
-Contact content...
+To get in touch, reach us any time at:
 
-TODO :)
+Email: `davidnguss@gmail.com`
+
+Phone: `+1 (606) 923-2537`

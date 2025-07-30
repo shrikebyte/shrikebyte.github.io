@@ -1,10 +1,17 @@
-+++
-title = 'Welcome'
-layout = 'home'
-+++
+# Welcome to Shrikebyte
 
-## Header 1
+This is custom homepage content. Write about company, services, mission, etc.
 
-Home content... s
+## About Us
 
-TODO :)
+Description...
+
+## Our Services
+
+- Service 1
+- Service 2
+- Service 3
+
+## Contact Us
+
+[Contact information](/contact/)

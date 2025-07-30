@@ -1,7 +1,7 @@
 +++
 date = '2025-07-29'
 draft = false
-title = 'My First Post'
+title = 'First Post'
 author = 'David Gussler'
 +++
 
@@ -17,3 +17,7 @@ Hi!
 # This is an example code block
 echo "Hello world"
 ```
+
+## A section
+
+With content
