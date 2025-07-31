@@ -74,3 +74,9 @@ weight = 40
 # Need to add this section for search to work
 [outputs]
   home = [ 'HTML', 'RSS', 'JSON' ]
+
+
+# Needed for Github pages
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
