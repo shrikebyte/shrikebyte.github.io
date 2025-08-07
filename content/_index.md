@@ -31,37 +31,50 @@ and doing it with more agility than anyone else.
 
 - Deliver FPGA / SoC designs that go fast, and do it fast.
 - Your success is our success.
-- Be radically transparent and honest.
-- Have fun.
+- Be [radically transparent](https://www.principles.com/principles/f6412dca-b3f9-4dd0-bb65-274869dd21ed) and honest.
+- Have fun!
 - Do difficult things that are worthwhile.
 - Don't lie, cheat or steal. There are no shortcuts in life.
 
 ## What The Heck is an FPGA?
 
-An FPGA is a reconfigurable digital logic chip that is often used for highly
-parallelized computing and for creating custom interfaces to bespoke hardware.
-They're usually used in specialized, lower-volume systems with high throughput
-and or low latency
-requirements like datacenter networking, RF / RADAR, aerospace & defense,
+An FPGA is a reconfigurable digital logic chip often used for highly
+parallelized computing and custom interfaces to bespoke hardware.
+You'll usually find them in specialized, lower-volume systems where high throughput
+or low latency is critical -
+things like datacenter networking, RF/RADAR, aerospace & defense,
 medical devices, scientific research, and test / measurement instrumentation.
-Today, most of these systems benefit by pairing a standard processor to handle
-higher-level
-tasks with an FPGA to handle lower-level tasks, and devices called SoCs
+
+FPGAs hit a sweet spot by delivering performance that pure software
+can't match, without the up-front cost of an ASIC, all while retaining most of
+the system flexibility offered by software. FPGAs also offers some
+unique security features that make them attractive to specific markets.
+
+Today, most FPGA-centric systems significantly benefit by pairing the FPGA with
+a traditional processor (running either bare metal software, an OS like Linux, or both at the same time!) to
+handle higher-level tasks while the FPGA handles lower-level tasks. Devices called SoCs
 (System on a Chip) combine an FPGA with a standard processor and standard peripherals on one chip,
 allowing for tightly coupled and highly optimized interactions between hardware
-and software. Having an expert in your corner who knows how to
-tailor a well-balanced system is the best way to harness the power (and tame
-the overwhelming complexities) of these highly capable devices.
+and software. As we approach the end of [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)
+this form of heterogeneous computing is becoming more and more important.
 
-Unlike with purely software-based projects, FPGA
-systems can easily wreck a project's timeline, whether that be caused by
-tool-bugs, unclear requirements, miscommunications between FPGA and software,
-or completely unexplainable witchcraft, leading to a dark downward spiral into
-the depths of [FPGA Hell](https://zipcpu.com/fpga-hell.html). Shrikebyte knows
+Having an expert in your corner who knows how to
+tailor a well-balanced system is the best way to harness the power (and tame
+the overwhelming complexities) of these highly capable SoC devices.
+
+But with great power comes great... complexity.
+FPGAs are notorious for wrecking project timelines, whether that be caused by
+toolchain bugs, vague requirements, miscommunications between FPGA and software,
+or outright
+[unexplainable witchcraft](https://news.ycombinator.com/item?id=39751509#:~:text=Unconventional%20Uses%20of%20FPGAs%20%7C%20Hacker%20News&text=%3E%20A%20ring%20oscillator%20in%20an,the%20ring%20oscillator%20will%20shift.),
+leading to a dark downward spiral into
+the depths of [FPGA Hell](https://zipcpu.com/fpga-hell.html).
+
+Shrikebyte knows
 how to navigate these pitfalls and keep your project on track. We're
 hyper-fixated
-on solving tough problems. In a perfect world, problems would never happen,
-but we have a practical worldview that helps us predict and then grapple with
+on solving tough problems in the "messy middle" by aligning hardware and software
+from the start. We have a practical worldview that helps us predict and grapple with
 your problems head on.
 
 ## Our Services
@@ -69,13 +82,16 @@ your problems head on.
 - **Custom FPGA & SoC system design**
   Need to create something that's never been done before?
 - **Support software & OS development**
+  We can develop drivers that open up a simple user API to the complicated
+  underlying system. Good abstractions with shallow interfaces and deep
+  capabilities open up the floodgates to exploiting powerful FPGA / software systems.
 - **Turnkey projects**
   From start to finish, we develop requirements, orchestrate a high-level
   architecture, execute the implementation, rigorously verify and test, and
-  assist with sustainment.
+  assist with ongoing sustainment.
 - **Specialized staff augmentation**
   Need specialized FPGA staff for a one-off project that doesn't justify
-  a full-time hire? We have experts at the ready that can immediately
+  a full-time hire? We have an expert at the ready that can immediately
   hit the ground running.
 - **Prototype / demonstration systems**
   Need a proof-of-concept or development board prototype to explore design
@@ -87,7 +103,7 @@ your problems head on.
 - **Fixing and improving existing botched systems**
   We've all been there before. It's that terrifying codebase that everyone
   else is too afraid to touch because it's slowly devolved into such an
-  incomprehensible mess. Let us clean it up and fix all those
+  incomprehensible mess and the last person to work on it retired 10 years ago. Let us clean it up and fix all those
   outstanding bugs.
 - **Legacy design migration**
   Is it becoming more difficult to source parts for that 25-year old board?
@@ -129,7 +145,7 @@ few examples of past projects.
 Want to talk about your project? Contact us any time and we can have a
 conversation to see if Shrikebyte is a good fit.
 
-We'll never take on a project that we aren't suited for or
+We'll never take on a project that we aren't suited for and we'll never
 recommend using an FPGA in a system where it doesn't make sense.
 If we're not the right fit, then we'll gladly help point you to another expert
 in our network who is more appropriate for your project's unique needs.
