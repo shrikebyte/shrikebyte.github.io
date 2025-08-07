@@ -36,6 +36,11 @@ theme = 'PaperMod'
   url = 'search/'
   weight = 40
 
+[[menu.main]]
+  identifier = 'github'
+  name = 'Github'
+  url = 'https://github.com/shrikebyte'
+  weight = 50
 
 ################################################################################
 # PaperMod customizations
