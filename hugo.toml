@@ -13,28 +13,28 @@ theme = 'PaperMod'
 ################################################################################
 
 [[menu.main]]
-identifier = 'home'
-name = 'Home'
-url = '/'
-weight = 10
+  identifier = 'home'
+  name = 'Home'
+  url = '/'
+  weight = 10
 
 [[menu.main]]
-identifier = 'blog'
-name = 'Blog'
-url = 'posts/'
-weight = 20
+  identifier = 'blog'
+  name = 'Blog'
+  url = 'posts/'
+  weight = 20
 
 [[menu.main]]
-identifier = 'contact'
-name = 'Contact'
-url = 'contact/'
-weight = 30
+  identifier = 'contact'
+  name = 'Contact'
+  url = 'contact/'
+  weight = 30
 
 [[menu.main]]
-identifier = 'search'
-name = 'Search'
-url = 'search/'
-weight = 40
+  identifier = 'search'
+  name = 'Search'
+  url = 'search/'
+  weight = 40
 
 
 ################################################################################
