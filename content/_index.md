@@ -27,12 +27,13 @@ of your system. To us, a design isn't just about checking boxes, its about
 delivering a highly capable system that shatters our customers' expectations
 and doing it with more agility than anyone else.
 
-## Our Guiding Principles
+### Our Guiding Principles
 
 - Deliver FPGA / SoC designs that go fast, and do it fast.
 - Your success is our success.
 - Be radically transparent and honest.
 - Have fun.
+- Do difficult things that are worthwhile.
 - Don't lie, cheat or steal. There are no shortcuts in life.
 
 ## What The Heck is an FPGA?
@@ -63,26 +64,72 @@ your problems head on.
 ## Our Services
 
 - Custom FPGA & SoC system design
+  - Need to create something that's never been done before?
 - Support software & OS development
 - Turnkey projects
+  - From start to finish, we develop requirements, orchestrate a high-level
+    architecture, execute the implementation, rigorously verify and test, and
+    assist with sustainment.
 - Specialized staff augmentation
+  - Need specialized FPGA staff for a one-off project that doesn't justify
+    a full-time hire? We have experts at the ready that can immediately
+    hit the ground running.
 - Prototype / demonstration systems
-- Full product launches
+  - Need a proof of system or development board prototype to explore design
+    options and reduce risk before committing to a certain path?
+- Board design assistance
+  - Never designed a custom FPGA board before? There are lots of pitfalls to
+    watch out for, and we offer schematic design reviews to help catch problems
+    before they make it to production.
+- Fixing and or improving existing botched systems
+  - We've all been there before. Its that terrifying codebase that everyone
+    else is too afraid to touch because it's slowly devolved into such an
+    incomprehensible mess. Let us clean it up and fix all those
+    outstanding bugs.
+- Legacy design migration
+  - Is it becoming more difficult to source parts for that 25-year old board?
+    we have the knowledge and experience needed to guide a smooth transition
+    while upgrading to newer product generations.
 
 ## Technologies
 
+These are some hights of the technologies we are fluent in, along with a
+few examples of past projects.
+
 - Software-Defined Radio
+  - Development of a high-reliability, low-cost, jamming-resistant radio
+    frequency geolocation system based on RF time of flight measurement and
+    multilateration principles, capable of locating an aircraft to 5 m of
+    precision within a range of 15 km.
 - Optical Communication
-- Video processing
+  - Design of an advanced free-space optics system, capable of delivering
+    gigabit ethernet over an undetectable laser communications link.
+- Video Processing
+  - Engineering of an intricate, sub-frame latency, real-time video pipeline
+    that compresses an HD camera feed with H.264 before transmitting over
+    ethernet.
+- Digital Signal Processing
+  - Design of custom signal processing models and implementations to detect
+    RF pulses in impossibly noisy environments. We're confident using
+    common open-source industry-standard DSP prototyping tools like the
+    well-regarded Python Numpy and Scipy libraries.
 - Embedded Design
+  - Need a specialized processor that can simultaneously control 100 UART
+    devices without skipping a beat?
+- High Speed IO interfaces, including
+  - PCIe
+  - Ethernet
+  - MIPI
+  - DDR Memories
+  - Custom SERDES
 
 ## Contact Us
 
 Want to talk about your project? Contact us any time and we can have a
-discussion to see if Shrikebyte is a good fit.
+conversation to see if Shrikebyte is a good fit.
 
-We'll never take on a project that we aren't suited for or try to
-recommend the use of an FPGA in a system where it doesn't make sense.
+We'll never take on a project that we aren't suited for or
+recommend using an FPGA in a system where it doesn't make sense.
 If we're not the right fit, then we'll gladly help point you to another expert
 in our network who is more appropriate for your project's unique needs.
 
