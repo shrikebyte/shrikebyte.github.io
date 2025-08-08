@@ -31,7 +31,7 @@ and doing it with more agility than anyone else.
 
 - Deliver FPGA / SoC designs that go fast, and do it fast.
 - Your success is our success.
-- Be [radically transparent](https://www.principles.com/principles/f6412dca-b3f9-4dd0-bb65-274869dd21ed) and honest.
+- Be [radically transparent](https://www.principles.com/principles/f6412dca-b3f9-4dd0-bb65-274869dd21ed).
 - Have fun!
 - Do difficult things that are worthwhile.
 - Don't lie, cheat or steal. There are no shortcuts in life.
@@ -81,7 +81,7 @@ your problems head on.
 
 - **Custom FPGA & SoC system design**
   Need to create something that's never been done before?
-- **Support software & OS development**
+- **Support software & Embedded Linux**
   We can develop drivers that open up a simple user API to the complicated
   underlying system. Good abstractions with shallow interfaces and deep
   capabilities open up the floodgates to exploiting powerful FPGA / software systems.
