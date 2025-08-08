@@ -53,7 +53,7 @@ unique security features that make them attractive to specific markets.
 Today, most FPGA-centric systems significantly benefit by pairing the FPGA with
 a traditional processor (running either bare metal software, an OS like Linux, or both at the same time!) to
 handle higher-level tasks while the FPGA handles lower-level tasks. Devices called SoCs
-(System on a Chip) combine an FPGA with a standard processor and standard peripherals on one chip,
+(System on a Chip) combine an FPGA with a traditional processor and peripherals on one chip,
 allowing for tightly coupled and highly optimized interactions between hardware
 and software. As we approach the end of [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)
 this form of heterogeneous computing is becoming more and more important.
