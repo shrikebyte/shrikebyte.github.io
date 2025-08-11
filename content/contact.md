@@ -7,6 +7,6 @@ params.ShowToc = false
 
 To get in touch, reach us any time at:
 
-Email: `davidnguss@gmail.com`
+Email: `info@shrikebyte.com`
 
 Phone: `+1 (606) 923-2537`
