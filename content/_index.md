@@ -30,7 +30,7 @@ We don't just focus on “our part” and leave the rest to someone else. We're 
 
 * **Custom FPGA & SoC system design**
   Need to create something that's never been done before?
-* **Support software & Embedded Linux**
+* **Support software & embedded Linux**
   We can develop drivers that open up a simple user API to the complicated underlying system. Good abstractions with shallow interfaces and deep capabilities open up the floodgates to exploiting powerful FPGA / software systems.
 * **Turnkey projects**
   From start to finish, we develop requirements, orchestrate a high-level architecture, execute the implementation, rigorously verify and test, and assist with ongoing sustainment.
@@ -60,7 +60,7 @@ few examples of past projects.
   Design of custom signal processing models and implementations to detect RF pulses in impossibly noisy environments. We're confident using common open-source industry-standard DSP prototyping tools like Numpy and Scipy.
 * **Embedded Design**
   Need a specialized processor that can simultaneously control 100 serial devices without skipping a beat?
-* **High Speed I/O interfaces**, including
+* **High Speed I/O Interfaces**, including
   * PCIe
   * Ethernet
   * MIPI
