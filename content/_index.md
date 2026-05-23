@@ -43,7 +43,7 @@ Every day starts by asking:
 
 Need to create something that's never been done before?
 
-### Turnkey Projects*
+### Turnkey Projects
 
 From start to finish, we develop requirements, orchestrate a high-level architecture, execute the implementation, rigorously verify and test, and assist with ongoing sustainment.
   
@@ -59,7 +59,7 @@ Need a proof-of-concept or development board prototype to explore design options
 
 Never designed a custom FPGA board before? There are lots of pitfalls to watch out for, and we offer schematic design reviews to help catch problems before they make it to production.
 
-### Support Software & Embedded Linux**
+### Support Software & Embedded Linux
 
 We can develop drivers that open up a simple user API to the complicated underlying system. Good abstractions with shallow interfaces and deep capabilities open up the floodgates to exploiting powerful FPGA / software systems.
   
