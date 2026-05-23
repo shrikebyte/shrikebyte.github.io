@@ -5,8 +5,8 @@ params.ShowBreadCrumbs = false
 params.ShowToc = false
 +++
 
-To get in touch, reach us any time at:
+To get in touch, reach out any time at:
 
-Email: `info@shrikebyte.com`
+`info@shrikebyte.com`
 
-Phone: `+1 (606) 923-2537`
+You can also find David, the Shrikebyte owner, on [LinkedIn](www.linkedin.com/in/david-gussler)
